@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Production / build output
+dist
+dist-ssr
+server/public
+*.tar.gz
+
+# Environment & Secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# System / Editor files
+.DS_Store
+Thumbs.db
+vite.config.ts.*
